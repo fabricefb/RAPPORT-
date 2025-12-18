@@ -1,0 +1,42 @@
+# .gitignore pour projets .NET
+
+# Build artifacts
+**/bin/
+**/obj/
+
+# VS Code
+.vscode/
+
+# User-specific
+*.swp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Rider
+.idea/
+
+# DotNet tools
+.vs/
+
+# EF migrations snapshot sometimes should be committed, keep Migrations.
+
+# Secrets
+appsettings.*.json
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+project.lock.json
+
+# Others
+*.db
+*.bak
+
